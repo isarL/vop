@@ -1,0 +1,1 @@
+The c++ project can be used to encode and decode using multithreading and sampling, calculate PSNR, file size and the amount of points. Draco and MPEG are used as compression algorithms. The python file can be used to run the tests. To do this you will need to change the arguments at the top of the main.py file.
