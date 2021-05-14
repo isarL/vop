@@ -1,0 +1,4 @@
+Microsoft Windows [Version 10.0.19042.867]
+(c) 2020 Microsoft Corporation. All rights reserved.
+
+C:\Users\isarl\Documents\VOP\c++project\c++project>
