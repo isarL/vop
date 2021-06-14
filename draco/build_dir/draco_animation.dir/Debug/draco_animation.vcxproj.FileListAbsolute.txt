@@ -1,2 +1,0 @@
-C:\Users\isarl\Documents\VOP\draco\build_dir\draco_animation.dir\Debug\draco_animation.lib
-C:\Users\isarl\Documents\VOP\draco\build_dir\draco_animation.dir\Debug\draco_animation.pdb

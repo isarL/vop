@@ -1,2 +1,0 @@
-C:\Users\isarl\Documents\VOP\draco\build_dir\draco_point_cloud.dir\Debug\draco_point_cloud.lib
-C:\Users\isarl\Documents\VOP\draco\build_dir\draco_point_cloud.dir\Debug\draco_point_cloud.pdb

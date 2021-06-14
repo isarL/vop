@@ -1,2 +1,0 @@
-C:\Users\isarl\Documents\VOP\draco\build_dir\draco_mesh.dir\Debug\draco_mesh.lib
-C:\Users\isarl\Documents\VOP\draco\build_dir\draco_mesh.dir\Debug\draco_mesh.pdb

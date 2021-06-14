@@ -1,2 +1,0 @@
-C:\Users\isarl\Documents\VOP\draco\build_dir\draco_attributes.dir\Debug\draco_attributes.lib
-C:\Users\isarl\Documents\VOP\draco\build_dir\draco_attributes.dir\Debug\draco_attributes.pdb

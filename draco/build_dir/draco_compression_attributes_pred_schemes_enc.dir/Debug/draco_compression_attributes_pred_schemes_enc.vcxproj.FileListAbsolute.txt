@@ -1,2 +1,0 @@
-C:\Users\isarl\Documents\VOP\draco\build_dir\draco_compression_attributes_pred_schemes_enc.dir\Debug\draco_compression_attributes_pred_schemes_enc.lib
-C:\Users\isarl\Documents\VOP\draco\build_dir\draco_compression_attributes_pred_schemes_enc.dir\Debug\draco_compression_attributes_pred_schemes_enc.pdb

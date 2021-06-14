@@ -1,8 +1,0 @@
-﻿  Building Custom Rule C:/Users/isarl/Documents/VOP/draco/CMakeLists.txt
-  prediction_scheme_encoder_factory.cc
-C:\Users\isarl\Documents\VOP\draco\src\draco/mesh/corner_table.h(284,1): warning C4267: 'argument': conversion from 'size_t' to 'ValueTypeT', possible loss of data
-          with
-          [
-              ValueTypeT=uint32_t
-          ]
-  draco_compression_attributes_pred_schemes_enc.vcxproj -> C:\Users\isarl\Documents\VOP\draco\build_dir\draco_compression_attributes_pred_schemes_enc.dir\Debug\draco_compression_attributes_pred_schemes_enc.lib

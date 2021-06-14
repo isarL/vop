@@ -1,6 +1,0 @@
-﻿  Building Custom Rule C:/Users/isarl/Documents/VOP/draco/CMakeLists.txt
-  point_cloud_decoder.cc
-  point_cloud_kd_tree_decoder.cc
-  point_cloud_sequential_decoder.cc
-  Generating Code...
-  draco_compression_point_cloud_dec.vcxproj -> C:\Users\isarl\Documents\VOP\draco\build_dir\draco_compression_point_cloud_dec.dir\Debug\draco_compression_point_cloud_dec.lib

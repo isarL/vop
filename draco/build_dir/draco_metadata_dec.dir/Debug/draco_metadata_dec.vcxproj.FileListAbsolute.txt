@@ -1,2 +1,0 @@
-C:\Users\isarl\Documents\VOP\draco\build_dir\draco_metadata_dec.dir\Debug\draco_metadata_dec.lib
-C:\Users\isarl\Documents\VOP\draco\build_dir\draco_metadata_dec.dir\Debug\draco_metadata_dec.pdb
