@@ -1,0 +1,2 @@
+C:\Users\isarl\Documents\VOP\draco\build_dir\draco_compression_mesh_enc.dir\Debug\draco_compression_mesh_enc.lib
+C:\Users\isarl\Documents\VOP\draco\build_dir\draco_compression_mesh_enc.dir\Debug\draco_compression_mesh_enc.pdb

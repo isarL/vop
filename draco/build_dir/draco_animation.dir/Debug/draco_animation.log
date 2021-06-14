@@ -1,0 +1,5 @@
+﻿  Building Custom Rule C:/Users/isarl/Documents/VOP/draco/CMakeLists.txt
+  keyframe_animation.cc
+C:\Users\isarl\Documents\VOP\draco\src\draco\animation\keyframe_animation.cc(24,46): warning C4267: 'initializing': conversion from 'size_t' to 'int32_t', possible loss of data
+C:\Users\isarl\Documents\VOP\draco\src\draco\animation\keyframe_animation.cc(24,46): warning C4267: 'initializing': conversion from 'size_t' to 'const int32_t', possible loss of data
+  draco_animation.vcxproj -> C:\Users\isarl\Documents\VOP\draco\build_dir\draco_animation.dir\Debug\draco_animation.lib

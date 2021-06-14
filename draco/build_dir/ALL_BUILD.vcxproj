@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DB169A78-3851-3563-8340-74ED2DB7B163}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\isarl\Documents\VOP\draco\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/isarl/Documents/VOP/draco/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/isarl/Documents/VOP/draco -BC:/Users/isarl/Documents/VOP/draco/build_dir --check-stamp-file C:/Users/isarl/Documents/VOP/draco/build_dir/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\isarl\Documents\VOP\draco\build_dir\CMakeFiles\3.16.5\CMakeCCompiler.cmake;C:\Users\isarl\Documents\VOP\draco\build_dir\CMakeFiles\3.16.5\CMakeCXXCompiler.cmake;C:\Users\isarl\Documents\VOP\draco\build_dir\CMakeFiles\3.16.5\CMakeRCCompiler.cmake;C:\Users\isarl\Documents\VOP\draco\build_dir\CMakeFiles\3.16.5\CMakeSystem.cmake;C:\Users\isarl\Documents\VOP\draco\cmake\draco-config.cmake.template;C:\Users\isarl\Documents\VOP\draco\cmake\draco.pc.template;C:\Users\isarl\Documents\VOP\draco\cmake\draco_build_definitions.cmake;C:\Users\isarl\Documents\VOP\draco\cmake\draco_cpu_detection.cmake;C:\Users\isarl\Documents\VOP\draco\cmake\draco_emscripten.cmake;C:\Users\isarl\Documents\VOP\draco\cmake\draco_flags.cmake;C:\Users\isarl\Documents\VOP\draco\cmake\draco_helpers.cmake;C:\Users\isarl\Documents\VOP\draco\cmake\draco_install.cmake;C:\Users\isarl\Documents\VOP\draco\cmake\draco_intrinsics.cmake;C:\Users\isarl\Documents\VOP\draco\cmake\draco_options.cmake;C:\Users\isarl\Documents\VOP\draco\cmake\draco_sanitizer.cmake;C:\Users\isarl\Documents\VOP\draco\cmake\draco_targets.cmake;C:\Users\isarl\Documents\VOP\draco\cmake\draco_tests.cmake;C:\Users\isarl\Documents\VOP\draco\cmake\draco_variables.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\isarl\Documents\VOP\draco\build_dir\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/isarl/Documents/VOP/draco/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/isarl/Documents/VOP/draco -BC:/Users/isarl/Documents/VOP/draco/build_dir --check-stamp-file C:/Users/isarl/Documents/VOP/draco/build_dir/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\isarl\Documents\VOP\draco\build_dir\CMakeFiles\3.16.5\CMakeCCompiler.cmake;C:\Users\isarl\Documents\VOP\draco\build_dir\CMakeFiles\3.16.5\CMakeCXXCompiler.cmake;C:\Users\isarl\Documents\VOP\draco\build_dir\CMakeFiles\3.16.5\CMakeRCCompiler.cmake;C:\Users\isarl\Documents\VOP\draco\build_dir\CMakeFiles\3.16.5\CMakeSystem.cmake;C:\Users\isarl\Documents\VOP\draco\cmake\draco-config.cmake.template;C:\Users\isarl\Documents\VOP\draco\cmake\draco.pc.template;C:\Users\isarl\Documents\VOP\draco\cmake\draco_build_definitions.cmake;C:\Users\isarl\Documents\VOP\draco\cmake\draco_cpu_detection.cmake;C:\Users\isarl\Documents\VOP\draco\cmake\draco_emscripten.cmake;C:\Users\isarl\Documents\VOP\draco\cmake\draco_flags.cmake;C:\Users\isarl\Documents\VOP\draco\cmake\draco_helpers.cmake;C:\Users\isarl\Documents\VOP\draco\cmake\draco_install.cmake;C:\Users\isarl\Documents\VOP\draco\cmake\draco_intrinsics.cmake;C:\Users\isarl\Documents\VOP\draco\cmake\draco_options.cmake;C:\Users\isarl\Documents\VOP\draco\cmake\draco_sanitizer.cmake;C:\Users\isarl\Documents\VOP\draco\cmake\draco_targets.cmake;C:\Users\isarl\Documents\VOP\draco\cmake\draco_tests.cmake;C:\Users\isarl\Documents\VOP\draco\cmake\draco_variables.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\isarl\Documents\VOP\draco\build_dir\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/isarl/Documents/VOP/draco/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/isarl/Documents/VOP/draco -BC:/Users/isarl/Documents/VOP/draco/build_dir --check-stamp-file C:/Users/isarl/Documents/VOP/draco/build_dir/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\isarl\Documents\VOP\draco\build_dir\CMakeFiles\3.16.5\CMakeCCompiler.cmake;C:\Users\isarl\Documents\VOP\draco\build_dir\CMakeFiles\3.16.5\CMakeCXXCompiler.cmake;C:\Users\isarl\Documents\VOP\draco\build_dir\CMakeFiles\3.16.5\CMakeRCCompiler.cmake;C:\Users\isarl\Documents\VOP\draco\build_dir\CMakeFiles\3.16.5\CMakeSystem.cmake;C:\Users\isarl\Documents\VOP\draco\cmake\draco-config.cmake.template;C:\Users\isarl\Documents\VOP\draco\cmake\draco.pc.template;C:\Users\isarl\Documents\VOP\draco\cmake\draco_build_definitions.cmake;C:\Users\isarl\Documents\VOP\draco\cmake\draco_cpu_detection.cmake;C:\Users\isarl\Documents\VOP\draco\cmake\draco_emscripten.cmake;C:\Users\isarl\Documents\VOP\draco\cmake\draco_flags.cmake;C:\Users\isarl\Documents\VOP\draco\cmake\draco_helpers.cmake;C:\Users\isarl\Documents\VOP\draco\cmake\draco_install.cmake;C:\Users\isarl\Documents\VOP\draco\cmake\draco_intrinsics.cmake;C:\Users\isarl\Documents\VOP\draco\cmake\draco_options.cmake;C:\Users\isarl\Documents\VOP\draco\cmake\draco_sanitizer.cmake;C:\Users\isarl\Documents\VOP\draco\cmake\draco_targets.cmake;C:\Users\isarl\Documents\VOP\draco\cmake\draco_tests.cmake;C:\Users\isarl\Documents\VOP\draco\cmake\draco_variables.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\isarl\Documents\VOP\draco\build_dir\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/isarl/Documents/VOP/draco/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/isarl/Documents/VOP/draco -BC:/Users/isarl/Documents/VOP/draco/build_dir --check-stamp-file C:/Users/isarl/Documents/VOP/draco/build_dir/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\isarl\Documents\VOP\draco\build_dir\CMakeFiles\3.16.5\CMakeCCompiler.cmake;C:\Users\isarl\Documents\VOP\draco\build_dir\CMakeFiles\3.16.5\CMakeCXXCompiler.cmake;C:\Users\isarl\Documents\VOP\draco\build_dir\CMakeFiles\3.16.5\CMakeRCCompiler.cmake;C:\Users\isarl\Documents\VOP\draco\build_dir\CMakeFiles\3.16.5\CMakeSystem.cmake;C:\Users\isarl\Documents\VOP\draco\cmake\draco-config.cmake.template;C:\Users\isarl\Documents\VOP\draco\cmake\draco.pc.template;C:\Users\isarl\Documents\VOP\draco\cmake\draco_build_definitions.cmake;C:\Users\isarl\Documents\VOP\draco\cmake\draco_cpu_detection.cmake;C:\Users\isarl\Documents\VOP\draco\cmake\draco_emscripten.cmake;C:\Users\isarl\Documents\VOP\draco\cmake\draco_flags.cmake;C:\Users\isarl\Documents\VOP\draco\cmake\draco_helpers.cmake;C:\Users\isarl\Documents\VOP\draco\cmake\draco_install.cmake;C:\Users\isarl\Documents\VOP\draco\cmake\draco_intrinsics.cmake;C:\Users\isarl\Documents\VOP\draco\cmake\draco_options.cmake;C:\Users\isarl\Documents\VOP\draco\cmake\draco_sanitizer.cmake;C:\Users\isarl\Documents\VOP\draco\cmake\draco_targets.cmake;C:\Users\isarl\Documents\VOP\draco\cmake\draco_tests.cmake;C:\Users\isarl\Documents\VOP\draco\cmake\draco_variables.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\isarl\Documents\VOP\draco\build_dir\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\isarl\Documents\VOP\draco\build_dir\ZERO_CHECK.vcxproj">
+      <Project>{DABE7DEE-84E5-3816-92EB-50BC49ABF71D}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\isarl\Documents\VOP\draco\build_dir\draco.vcxproj">
+      <Project>{014B13D0-80FC-3983-9747-15257C9B9DD1}</Project>
+      <Name>draco</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\isarl\Documents\VOP\draco\build_dir\draco_animation.vcxproj">
+      <Project>{3F3820B5-C3A7-3542-BD08-721A2485C096}</Project>
+      <Name>draco_animation</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\isarl\Documents\VOP\draco\build_dir\draco_animation_dec.vcxproj">
+      <Project>{4156FDB3-3193-3AA1-A61C-61FA56613DB4}</Project>
+      <Name>draco_animation_dec</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\isarl\Documents\VOP\draco\build_dir\draco_animation_enc.vcxproj">
+      <Project>{C20A466C-718B-3350-A3A8-6CF3CD24D478}</Project>
+      <Name>draco_animation_enc</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\isarl\Documents\VOP\draco\build_dir\draco_attributes.vcxproj">
+      <Project>{FE69110C-6127-3765-8B3C-B77282291326}</Project>
+      <Name>draco_attributes</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\isarl\Documents\VOP\draco\build_dir\draco_compression_attributes_dec.vcxproj">
+      <Project>{EDD69A41-8D79-33A9-8B17-BF21921DB6EE}</Project>
+      <Name>draco_compression_attributes_dec</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\isarl\Documents\VOP\draco\build_dir\draco_compression_attributes_enc.vcxproj">
+      <Project>{E2E9A004-9DE6-3BA2-8706-6E3847FB5765}</Project>
+      <Name>draco_compression_attributes_enc</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\isarl\Documents\VOP\draco\build_dir\draco_compression_attributes_pred_schemes_dec.vcxproj">
+      <Project>{44F9F6FE-3F49-36CD-B26D-68D9B18F62F2}</Project>
+      <Name>draco_compression_attributes_pred_schemes_dec</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\isarl\Documents\VOP\draco\build_dir\draco_compression_attributes_pred_schemes_enc.vcxproj">
+      <Project>{BD2CDAD0-DEC5-3E31-89D3-B42D387BA595}</Project>
+      <Name>draco_compression_attributes_pred_schemes_enc</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\isarl\Documents\VOP\draco\build_dir\draco_compression_bit_coders.vcxproj">
+      <Project>{D8EA4947-6576-3BD7-AB61-BB0883C53D1D}</Project>
+      <Name>draco_compression_bit_coders</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\isarl\Documents\VOP\draco\build_dir\draco_compression_decode.vcxproj">
+      <Project>{7561E71A-7FC7-37E1-883A-241619058083}</Project>
+      <Name>draco_compression_decode</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\isarl\Documents\VOP\draco\build_dir\draco_compression_encode.vcxproj">
+      <Project>{361D4B26-71AA-3292-8F23-9189578B5A9B}</Project>
+      <Name>draco_compression_encode</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\isarl\Documents\VOP\draco\build_dir\draco_compression_entropy.vcxproj">
+      <Project>{D16BDF26-D5B3-341A-AB72-D99D891206E1}</Project>
+      <Name>draco_compression_entropy</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\isarl\Documents\VOP\draco\build_dir\draco_compression_mesh_dec.vcxproj">
+      <Project>{080AAAF2-6957-37E3-A5CB-C6B5D6F76730}</Project>
+      <Name>draco_compression_mesh_dec</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\isarl\Documents\VOP\draco\build_dir\draco_compression_mesh_enc.vcxproj">
+      <Project>{7A6B23EA-70A8-3C87-9624-C13888271EC5}</Project>
+      <Name>draco_compression_mesh_enc</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\isarl\Documents\VOP\draco\build_dir\draco_compression_mesh_traverser.vcxproj">
+      <Project>{FEEB9CBB-A2CE-3C27-AF14-3C3E68185BB9}</Project>
+      <Name>draco_compression_mesh_traverser</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\isarl\Documents\VOP\draco\build_dir\draco_compression_point_cloud_dec.vcxproj">
+      <Project>{2B0CC468-F53D-3D39-94A7-8D9C19121FB1}</Project>
+      <Name>draco_compression_point_cloud_dec</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\isarl\Documents\VOP\draco\build_dir\draco_compression_point_cloud_enc.vcxproj">
+      <Project>{ABAB746C-6ECE-39FB-9B45-2128E34CF908}</Project>
+      <Name>draco_compression_point_cloud_enc</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\isarl\Documents\VOP\draco\build_dir\draco_core.vcxproj">
+      <Project>{9F714F64-9FA8-32E5-909D-AB066784345A}</Project>
+      <Name>draco_core</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\isarl\Documents\VOP\draco\build_dir\draco_dec_config.vcxproj">
+      <Project>{1FF8C32D-DBE0-33FE-9F20-479264135049}</Project>
+      <Name>draco_dec_config</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\isarl\Documents\VOP\draco\build_dir\draco_decoder.vcxproj">
+      <Project>{F5FA4101-9676-3C23-B5D4-D6BDC4DCA360}</Project>
+      <Name>draco_decoder</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\isarl\Documents\VOP\draco\build_dir\draco_enc_config.vcxproj">
+      <Project>{EBCE24A8-AFE0-3E53-B7EE-199772916E57}</Project>
+      <Name>draco_enc_config</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\isarl\Documents\VOP\draco\build_dir\draco_encoder.vcxproj">
+      <Project>{043E57D4-32DE-30DB-8A00-D8DF162BE5BD}</Project>
+      <Name>draco_encoder</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\isarl\Documents\VOP\draco\build_dir\draco_io.vcxproj">
+      <Project>{B109BC4B-84CE-3DDD-8869-A95619CFC2B0}</Project>
+      <Name>draco_io</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\isarl\Documents\VOP\draco\build_dir\draco_mesh.vcxproj">
+      <Project>{EA977518-EF14-3185-AD6B-00FF1F6F1071}</Project>
+      <Name>draco_mesh</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\isarl\Documents\VOP\draco\build_dir\draco_metadata.vcxproj">
+      <Project>{1CF7F953-B376-3BD7-A0DC-C76C98957AC2}</Project>
+      <Name>draco_metadata</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\isarl\Documents\VOP\draco\build_dir\draco_metadata_dec.vcxproj">
+      <Project>{73814948-15DB-3DC6-ADB7-9C9EDA9BC00F}</Project>
+      <Name>draco_metadata_dec</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\isarl\Documents\VOP\draco\build_dir\draco_metadata_enc.vcxproj">
+      <Project>{AAC4FDC9-505D-3957-9961-B86D5A33EFC5}</Project>
+      <Name>draco_metadata_enc</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\isarl\Documents\VOP\draco\build_dir\draco_point_cloud.vcxproj">
+      <Project>{B6087AC4-0856-3307-AAD1-EEF3B6947530}</Project>
+      <Name>draco_point_cloud</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\isarl\Documents\VOP\draco\build_dir\draco_points_dec.vcxproj">
+      <Project>{2EE90EEB-6515-3A98-B71B-21431265D645}</Project>
+      <Name>draco_points_dec</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\isarl\Documents\VOP\draco\build_dir\draco_points_enc.vcxproj">
+      <Project>{6AF63834-8C82-31BD-A70A-614FE2B43EC9}</Project>
+      <Name>draco_points_enc</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

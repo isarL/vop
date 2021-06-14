@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\isarl\Documents\VOP\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_encoder_factory.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_constrained_multi_parallelogram_encoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_constrained_multi_parallelogram_shared.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_encoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_geometric_normal_encoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_geometric_normal_predictor_area.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_geometric_normal_predictor_base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_multi_parallelogram_encoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_parallelogram_encoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_parallelogram_shared.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_tex_coords_encoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_tex_coords_portable_encoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_tex_coords_portable_predictor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_delta_encoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_encoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_encoder_factory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_encoder_interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_encoding_transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_factory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_normal_octahedron_canonicalized_encoding_transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_normal_octahedron_canonicalized_transform_base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_normal_octahedron_encoding_transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_normal_octahedron_transform_base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_wrap_encoding_transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_wrap_transform_base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\isarl\Documents\VOP\draco\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{D5B5C640-AC73-380F-ADF1-1B6D7EC3E518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{59AE4582-00A9-3415-BCFD-9E4765B9B88C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

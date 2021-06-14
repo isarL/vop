@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\isarl\Documents\VOP\draco\src\draco\compression\attributes\attributes_decoder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\isarl\Documents\VOP\draco\src\draco\compression\attributes\kd_tree_attributes_decoder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\isarl\Documents\VOP\draco\src\draco\compression\attributes\sequential_attribute_decoder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\isarl\Documents\VOP\draco\src\draco\compression\attributes\sequential_attribute_decoders_controller.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\isarl\Documents\VOP\draco\src\draco\compression\attributes\sequential_integer_attribute_decoder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\isarl\Documents\VOP\draco\src\draco\compression\attributes\sequential_normal_attribute_decoder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\isarl\Documents\VOP\draco\src\draco\compression\attributes\sequential_quantization_attribute_decoder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\compression\attributes\attributes_decoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\compression\attributes\kd_tree_attributes_decoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\compression\attributes\kd_tree_attributes_shared.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\compression\attributes\mesh_attribute_indices_encoding_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\compression\attributes\normal_compression_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\compression\attributes\point_d_vector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\compression\attributes\sequential_attribute_decoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\compression\attributes\sequential_attribute_decoders_controller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\compression\attributes\sequential_integer_attribute_decoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\compression\attributes\sequential_normal_attribute_decoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\compression\attributes\sequential_quantization_attribute_decoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\isarl\Documents\VOP\draco\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{D5B5C640-AC73-380F-ADF1-1B6D7EC3E518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{59AE4582-00A9-3415-BCFD-9E4765B9B88C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

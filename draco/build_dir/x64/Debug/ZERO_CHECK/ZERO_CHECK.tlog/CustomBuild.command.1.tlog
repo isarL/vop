@@ -1,0 +1,10 @@
+^C:\USERS\ISARL\DOCUMENTS\VOP\DRACO\BUILD_DIR\CMAKEFILES\FD4FAD7CF5B23FACC7CF531EDF804A54\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/isarl/Documents/VOP/draco -BC:/Users/isarl/Documents/VOP/draco/build_dir --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/isarl/Documents/VOP/draco/build_dir/draco.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

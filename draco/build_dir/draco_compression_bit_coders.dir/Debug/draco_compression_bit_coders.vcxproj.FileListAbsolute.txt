@@ -1,0 +1,2 @@
+C:\Users\isarl\Documents\VOP\draco\build_dir\draco_compression_bit_coders.dir\Debug\draco_compression_bit_coders.lib
+C:\Users\isarl\Documents\VOP\draco\build_dir\draco_compression_bit_coders.dir\Debug\draco_compression_bit_coders.pdb

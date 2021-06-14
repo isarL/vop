@@ -1,0 +1,37 @@
+﻿  Building Custom Rule C:/Users/isarl/Documents/VOP/draco/CMakeLists.txt
+  mesh_decoder.cc
+C:\Users\isarl\Documents\VOP\draco\src\draco/mesh/corner_table.h(284,1): warning C4267: 'argument': conversion from 'size_t' to 'ValueTypeT', possible loss of data
+          with
+          [
+              ValueTypeT=uint32_t
+          ]
+  mesh_edgebreaker_decoder.cc
+C:\Users\isarl\Documents\VOP\draco\src\draco/mesh/corner_table.h(284,1): warning C4267: 'argument': conversion from 'size_t' to 'ValueTypeT', possible loss of data
+          with
+          [
+              ValueTypeT=uint32_t
+          ]
+  mesh_edgebreaker_decoder_impl.cc
+C:\Users\isarl\Documents\VOP\draco\src\draco/mesh/corner_table.h(284,1): warning C4267: 'argument': conversion from 'size_t' to 'ValueTypeT', possible loss of data
+          with
+          [
+              ValueTypeT=uint32_t
+          ]
+C:\Users\isarl\Documents\VOP\draco\src\draco/compression/mesh/traverser/mesh_traversal_sequencer.h(65,1): warning C4267: 'argument': conversion from 'size_t' to 'const ValueTypeT', possible loss of data
+          with
+          [
+              ValueTypeT=uint32_t
+          ]
+C:\Users\isarl\Documents\VOP\draco\src\draco/compression/mesh/traverser/mesh_traversal_sequencer.h(48): message : while compiling class template member function 'bool draco::MeshTraversalSequencer<AttTraverser>::UpdatePointToAttributeIndexMapping(draco::PointAttribute *)'
+C:\Users\isarl\Documents\VOP\draco\src\draco\compression\mesh\mesh_edgebreaker_decoder_impl.cc(222): message : see reference to class template instantiation 'draco::MeshTraversalSequencer<AttTraverser>' being compiled
+C:\Users\isarl\Documents\VOP\draco\src\draco\compression\mesh\mesh_edgebreaker_decoder_impl.cc(129): message : while compiling class template member function 'bool draco::MeshEdgebreakerDecoderImpl<draco::MeshEdgebreakerTraversalDecoder>::CreateAttributesDecoder(int32_t)'
+C:\Users\isarl\Documents\VOP\draco\src\draco\compression\mesh\mesh_edgebreaker_decoder_impl.cc(1224): message : see reference to class template instantiation 'draco::MeshEdgebreakerDecoderImpl<draco::MeshEdgebreakerTraversalDecoder>' being compiled
+  mesh_sequential_decoder.cc
+C:\Users\isarl\Documents\VOP\draco\src\draco/mesh/corner_table.h(284,1): warning C4267: 'argument': conversion from 'size_t' to 'ValueTypeT', possible loss of data
+          with
+          [
+              ValueTypeT=uint32_t
+          ]
+C:\Users\isarl\Documents\VOP\draco\src\draco\compression\mesh\mesh_sequential_decoder.cc(56,16): warning C4018: '>': signed/unsigned mismatch
+  Generating Code...
+  draco_compression_mesh_dec.vcxproj -> C:\Users\isarl\Documents\VOP\draco\build_dir\draco_compression_mesh_dec.dir\Debug\draco_compression_mesh_dec.lib

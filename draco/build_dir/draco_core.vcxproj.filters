@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\isarl\Documents\VOP\draco\src\draco\core\bit_utils.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\isarl\Documents\VOP\draco\src\draco\core\bounding_box.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\isarl\Documents\VOP\draco\src\draco\core\cycle_timer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\isarl\Documents\VOP\draco\src\draco\core\data_buffer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\isarl\Documents\VOP\draco\src\draco\core\decoder_buffer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\isarl\Documents\VOP\draco\src\draco\core\divide.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\isarl\Documents\VOP\draco\src\draco\core\draco_types.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\isarl\Documents\VOP\draco\src\draco\core\encoder_buffer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\isarl\Documents\VOP\draco\src\draco\core\hash_utils.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\isarl\Documents\VOP\draco\src\draco\core\options.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\isarl\Documents\VOP\draco\src\draco\core\quantization_utils.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\core\bit_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\core\bounding_box.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\core\cycle_timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\core\data_buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\core\decoder_buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\core\divide.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\core\draco_index_type.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\core\draco_index_type_vector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\core\draco_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\core\encoder_buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\core\hash_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\core\macros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\core\math_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\core\options.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\core\quantization_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\core\status.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\core\status_or.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\core\varint_decoding.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\core\varint_encoding.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\isarl\Documents\VOP\draco\src\draco\core\vector_d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\isarl\Documents\VOP\draco\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{D5B5C640-AC73-380F-ADF1-1B6D7EC3E518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{59AE4582-00A9-3415-BCFD-9E4765B9B88C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

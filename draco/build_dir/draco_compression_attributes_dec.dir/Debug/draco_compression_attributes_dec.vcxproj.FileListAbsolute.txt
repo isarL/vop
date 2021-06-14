@@ -1,0 +1,2 @@
+C:\Users\isarl\Documents\VOP\draco\build_dir\draco_compression_attributes_dec.dir\Debug\draco_compression_attributes_dec.lib
+C:\Users\isarl\Documents\VOP\draco\build_dir\draco_compression_attributes_dec.dir\Debug\draco_compression_attributes_dec.pdb

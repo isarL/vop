@@ -1,0 +1,31 @@
+﻿  Building Custom Rule C:/Users/isarl/Documents/VOP/draco/CMakeLists.txt
+  corner_table.cc
+C:\Users\isarl\Documents\VOP\draco\src\draco/mesh/corner_table.h(284,1): warning C4267: 'argument': conversion from 'size_t' to 'ValueTypeT', possible loss of data
+          with
+          [
+              ValueTypeT=uint32_t
+          ]
+  mesh.cc
+  mesh_are_equivalent.cc
+  mesh_attribute_corner_table.cc
+C:\Users\isarl\Documents\VOP\draco\src\draco/mesh/corner_table.h(284,1): warning C4267: 'argument': conversion from 'size_t' to 'ValueTypeT', possible loss of data
+          with
+          [
+              ValueTypeT=uint32_t
+          ]
+  mesh_cleanup.cc
+  mesh_misc_functions.cc
+C:\Users\isarl\Documents\VOP\draco\src\draco/mesh/corner_table.h(284,1): warning C4267: 'argument': conversion from 'size_t' to 'ValueTypeT', possible loss of data
+          with
+          [
+              ValueTypeT=uint32_t
+          ]
+  mesh_stripifier.cc
+C:\Users\isarl\Documents\VOP\draco\src\draco/mesh/corner_table.h(284,1): warning C4267: 'argument': conversion from 'size_t' to 'ValueTypeT', possible loss of data
+          with
+          [
+              ValueTypeT=uint32_t
+          ]
+  triangle_soup_mesh_builder.cc
+  Generating Code...
+  draco_mesh.vcxproj -> C:\Users\isarl\Documents\VOP\draco\build_dir\draco_mesh.dir\Debug\draco_mesh.lib
