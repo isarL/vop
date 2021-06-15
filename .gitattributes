@@ -1,3 +1,3 @@
 Browse.VC.db filter=lfs diff=lfs merge=lfs -text
 *.ipch filter=lfs diff=lfs merge=lfs -text
-
+draco.lib filter=lfs diff=lfs merge=lfs -text
